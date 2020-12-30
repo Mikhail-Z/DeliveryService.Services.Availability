@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Convey" Version="0.4.411" />
+      <PackageReference Include="Convey.Persistence.MongoDB" Version="0.4.411" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\DeliveryService.Services.Availability.Core\DeliveryService.Services.Availability.Core.csproj" />
+    </ItemGroup>
+
+</Project>
