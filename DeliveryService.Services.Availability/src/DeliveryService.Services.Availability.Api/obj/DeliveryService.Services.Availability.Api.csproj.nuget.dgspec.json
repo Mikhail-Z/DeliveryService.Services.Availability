@@ -1,0 +1,206 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/mikhail/Documents/study/devmentors/Microservices.NET/DeliveryService.Services.Availability/DeliveryService.Services.Availability/src/DeliveryService.Services.Availability.Api/DeliveryService.Services.Availability.Api.csproj": {}
+  },
+  "projects": {
+    "/home/mikhail/Documents/study/devmentors/Microservices.NET/DeliveryService.Services.Availability/DeliveryService.Services.Availability/src/DeliveryService.Services.Availability.Api/DeliveryService.Services.Availability.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/mikhail/Documents/study/devmentors/Microservices.NET/DeliveryService.Services.Availability/DeliveryService.Services.Availability/src/DeliveryService.Services.Availability.Api/DeliveryService.Services.Availability.Api.csproj",
+        "projectName": "DeliveryService.Services.Availability.Api",
+        "projectPath": "/home/mikhail/Documents/study/devmentors/Microservices.NET/DeliveryService.Services.Availability/DeliveryService.Services.Availability/src/DeliveryService.Services.Availability.Api/DeliveryService.Services.Availability.Api.csproj",
+        "packagesPath": "/home/mikhail/.nuget/packages/",
+        "outputPath": "/home/mikhail/Documents/study/devmentors/Microservices.NET/DeliveryService.Services.Availability/DeliveryService.Services.Availability/src/DeliveryService.Services.Availability.Api/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/mikhail/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/mikhail/Documents/study/devmentors/Microservices.NET/DeliveryService.Services.Availability/DeliveryService.Services.Availability/src/DeliveryService.Services.Availability.Application/DeliveryService.Services.Availability.Application.csproj": {
+                "projectPath": "/home/mikhail/Documents/study/devmentors/Microservices.NET/DeliveryService.Services.Availability/DeliveryService.Services.Availability/src/DeliveryService.Services.Availability.Application/DeliveryService.Services.Availability.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Convey": {
+              "target": "Package",
+              "version": "[0.4.411, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/mikhail/Documents/study/devmentors/Microservices.NET/DeliveryService.Services.Availability/DeliveryService.Services.Availability/src/DeliveryService.Services.Availability.Application/DeliveryService.Services.Availability.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/mikhail/Documents/study/devmentors/Microservices.NET/DeliveryService.Services.Availability/DeliveryService.Services.Availability/src/DeliveryService.Services.Availability.Application/DeliveryService.Services.Availability.Application.csproj",
+        "projectName": "DeliveryService.Services.Availability.Application",
+        "projectPath": "/home/mikhail/Documents/study/devmentors/Microservices.NET/DeliveryService.Services.Availability/DeliveryService.Services.Availability/src/DeliveryService.Services.Availability.Application/DeliveryService.Services.Availability.Application.csproj",
+        "packagesPath": "/home/mikhail/.nuget/packages/",
+        "outputPath": "/home/mikhail/Documents/study/devmentors/Microservices.NET/DeliveryService.Services.Availability/DeliveryService.Services.Availability/src/DeliveryService.Services.Availability.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/mikhail/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/mikhail/Documents/study/devmentors/Microservices.NET/DeliveryService.Services.Availability/DeliveryService.Services.Availability/src/DeliveryService.Services.Availability.Core/DeliveryService.Services.Availability.Core.csproj": {
+                "projectPath": "/home/mikhail/Documents/study/devmentors/Microservices.NET/DeliveryService.Services.Availability/DeliveryService.Services.Availability/src/DeliveryService.Services.Availability.Core/DeliveryService.Services.Availability.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Convey": {
+              "target": "Package",
+              "version": "[0.4.411, )"
+            },
+            "Convey.CQRS.Commands": {
+              "target": "Package",
+              "version": "[0.4.411, )"
+            },
+            "Convey.CQRS.Events": {
+              "target": "Package",
+              "version": "[0.4.411, )"
+            },
+            "Convey.CQRS.Queries": {
+              "target": "Package",
+              "version": "[0.4.411, )"
+            },
+            "Convey.MessageBrokers": {
+              "target": "Package",
+              "version": "[0.4.411, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/mikhail/Documents/study/devmentors/Microservices.NET/DeliveryService.Services.Availability/DeliveryService.Services.Availability/src/DeliveryService.Services.Availability.Core/DeliveryService.Services.Availability.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/mikhail/Documents/study/devmentors/Microservices.NET/DeliveryService.Services.Availability/DeliveryService.Services.Availability/src/DeliveryService.Services.Availability.Core/DeliveryService.Services.Availability.Core.csproj",
+        "projectName": "DeliveryService.Services.Availability.Core",
+        "projectPath": "/home/mikhail/Documents/study/devmentors/Microservices.NET/DeliveryService.Services.Availability/DeliveryService.Services.Availability/src/DeliveryService.Services.Availability.Core/DeliveryService.Services.Availability.Core.csproj",
+        "packagesPath": "/home/mikhail/.nuget/packages/",
+        "outputPath": "/home/mikhail/Documents/study/devmentors/Microservices.NET/DeliveryService.Services.Availability/DeliveryService.Services.Availability/src/DeliveryService.Services.Availability.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/mikhail/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
